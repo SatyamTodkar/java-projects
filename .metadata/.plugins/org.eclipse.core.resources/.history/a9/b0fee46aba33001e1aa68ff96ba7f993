@@ -28,11 +28,12 @@ public class Email {
 		
 		//Combine elements to generate email
 		email = firstName.toLowerCase() + "." + lastName.toLowerCase() + "@" + department + "." + companySuffix;
+		System.out.println("Your email is: " + email);
 	}
 	
 	//Ask for the department
 	private String setDepartment() {
-		System.out.print("Welcome, " + firstName + "DEPARTMENT CODES\n1 for Sales\n2 for Development\n3 for Accounting\n0 for None\nEnter department code: ");
+		System.out.print("DEPARTMENT CODES\n1 for Sales\n2 for Development\n3 for Accounting\n0 for None\nEnter department code: ");
 		Scanner sc = new Scanner(System.in);
 		int depChoice = sc.nextInt();
 		if(depChoice == 1) { return "sales";}
