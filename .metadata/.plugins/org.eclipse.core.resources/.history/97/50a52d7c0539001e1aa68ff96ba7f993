@@ -1,0 +1,10 @@
+package bankaccountapp;
+
+public class Savings extends Account{
+	// List properties specific to a Checking account
+	
+	// Constructor to initialize checking account properties
+		
+	// List any methods specific to the checking account
+
+}

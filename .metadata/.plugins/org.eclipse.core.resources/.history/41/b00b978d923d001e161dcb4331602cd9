@@ -1,0 +1,25 @@
+package bankaccountapp;
+
+public class BankAccountApp {
+
+	public static void main(String[] args) {
+		
+		String file = "D:\\Java Projects Files\\NewBankAccounts.csv";
+		
+		/*
+		Checking chkacc1 = new Checking("Jim Smith", "123456789", 1500);
+		
+		Savings savacc1 = new Savings("Shawn George", "987654321", 1000);
+		
+		chkacc1.showInfo();
+		System.out.println("-------------------");
+		savacc1.showInfo();
+		
+		*/
+		
+		// Read a CSV File then create new accounts based on that data
+		List<String[]> newAccountHolders = utilities.CSV.read(file);
+		
+	}
+
+}

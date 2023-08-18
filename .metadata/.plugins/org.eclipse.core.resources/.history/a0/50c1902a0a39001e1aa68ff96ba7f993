@@ -1,0 +1,15 @@
+package bankaccountapp;
+
+public class BankAccountApp {
+
+	public static void main(String[] args) {
+		
+		Checking chkacc1 = new Checking();
+		
+		Savings savacc1 = new Savings();
+				
+		// Read a CSV File then create new accounts based on that data
+
+	}
+
+}
